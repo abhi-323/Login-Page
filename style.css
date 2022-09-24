@@ -15,6 +15,12 @@ body {
     height: 300px;
     width: 250px;
   }
+
+  h1 {
+    padding: 0 0 0 0;
+    margin: -70px 50px 30px 90px;
+  }
+  
   input[type=text], input[type=password] {
     width: 110%; 
     padding: 7px 5px;
@@ -24,7 +30,7 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
   }
-
+  
   input[type=submit] {
     padding: 6px 10px;
     margin: 10px 0 0 0px;
@@ -40,28 +46,32 @@ body {
     background-color: aquamarine;
     color: black;
   }
-
+  
   h5 {
     margin: 50px 10px 0px 50px ;
   }
-
+  
   a {
     color:blue;
   }
-
+  
   a:hover {
     color:black;
   }
-
+  
   p {
     margin: 10px 0 0 110px;
   }
-
+  
   img {
-    margin-left: 5px;
+    margin-left: 6px;
   }
-
-/* .loginbox {
+  
+  .Login {
+    align-items: center;
+  }
+  
+  /* .loginbox {
     border: dotted ;
     border-radius: 10px;
     height: 500px;
@@ -69,8 +79,9 @@ body {
     align-items: center;
     margin: auto;
     padding: 12px 50px;
-} */
+  } */
 
-.Login {
-    align-items: center;
-}
+  /* label[for=User_Name], label[for=Password] {
+    text-align: center;
+    padding: 0px 0px 0px 100px;
+} */
